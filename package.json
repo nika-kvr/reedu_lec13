@@ -1,0 +1,21 @@
+{
+  "name": "reedu_lec13",
+  "version": "1.0.0",
+  "main": "weatherApp.js",
+  "type": "module",
+  "bin": {
+    "weather-cli": "weatherApp.js",
+    "car-cli": "carFact.js"
+  },
+  "scripts": {
+    "start": "node --watch weatherApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
